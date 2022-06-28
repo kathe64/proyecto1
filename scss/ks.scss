@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+ }  
+
+ 
+@import "body";
+
+@import "pages";
+
+h1{
+    margin: 1rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;}
+
+
+h3{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Lora', serif;}
+    
+
+h4
+{padding: 2rem;
+text-align: center;}
+
+footer{
+    .footer1{
+     padding: 1.5rem;
+    text-align: center;
+}
+}
+
+        

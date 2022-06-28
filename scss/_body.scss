@@ -1,0 +1,34 @@
+body{
+    .container{
+        .letra{
+            list-style: none;
+        position: absolute;
+        font-size: 300px;
+        top: 50px;
+        left: 50px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .video{
+        position: relative;
+        opacity: 50%;
+    }
+}
+}
+
+
+.espacioenblanco{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+@media screen and ( max-width:760px){
+   
+    body{
+        .container{
+            .letra{
+            font-size: 150px;
+        }
+    }
+}        
+}

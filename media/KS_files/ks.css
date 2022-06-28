@@ -1,0 +1,383 @@
+*{
+    margin:0;
+    padding:0;
+ }  
+
+
+/* body{
+     background color: white;
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity: 50%; 
+} */
+
+
+.letra{
+    text-align: left;
+    margin-left: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 170px;
+    opacity: 70%;
+}
+
+
+    main{
+    width: 100%;
+    height: 100%;
+    }
+  
+
+    nav{
+    text-align: center;
+    }
+    
+    .menu{ 
+        display: flex;
+        font-size: 1rem;
+        list-style-type: none;
+        margin-top: 5px;
+        justify-content: space-between;
+    }
+    
+    
+    .menu li{ 
+        display: inline-block;
+        text-align: left;
+        margin: 0.7rem;
+        padding: 0.7rem; 
+    
+    }
+     
+    .menu li a{
+        text-decoration: none;
+        display: inline-block;
+        color: brown;
+    }
+    
+    .menu li:hover{
+        color: antiquewhite;
+        background-color: beige;
+        border-radius: 20%
+    }
+
+
+    .contenedor{
+    margin: 5px auto;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 400px 300px;
+    grid-template-areas: 
+    "cajax   cajax  cajax "
+    "caja1   caja1  caja2"
+    "cajaz   cajaz  cajaz"
+    gap: 10px;
+    
+     }  
+
+    .contenedorhijo{
+    width: 100%;
+  
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+    .cajax{
+        background-color: rgb(181, 241, 255);
+        grid-area: cajax;
+       
+}
+    .parrafo1{
+        margin: 15px;
+        text-align: left;
+        font-family: 'Roboto Mono', monospace;
+        font-size: medium;
+    }
+
+    .caja1{
+        background-color: violet;
+        grid-area: caja1;
+        border-bottom-left-radius: 3px;
+
+    }
+    .titulo1{
+        text-align: left;
+        font-size: 120px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Zilla Slab Highlight', cursive;
+        margin: 15px;
+    }
+
+    .articulo{
+        font-family: 'Roboto Mono', monospace;
+        font-size: small;
+        text-align: left;
+        margin: 15px;
+        border: 3px red;
+        overflow: auto;
+    }
+    
+    .caja2{
+        background-color: gray;
+        grid-area: caja2;
+        background-repeat: no repeat;
+    }
+    
+    
+    .cajaz{
+        background-color: red;
+        grid-area: cajaz;
+    }
+    
+    @media (max-width:1080px){
+    .contenedor{
+    grid-template-columns: auto;
+    grid-template-rows: 100px 400px 100px 300px 100px;
+    grid-template-areas:
+    "cajax"
+    "caja1"
+    "cajam"
+    "caja2"
+    "cajaz";
+    gap: 3px;
+     } 
+
+     .menu{ 
+        display: block;
+    }
+    
+    
+    .menu li{ 
+        display:block;
+        text-align: left;
+        margin: 0.7rem;
+        padding: 0.1rem; 
+    
+    }
+
+    }  
+
+    .contenedordos{
+        margin: 5px;
+        width: 100%;
+        padding: 0;
+        display: grid;
+        grid-template-rows: 500px 500px 500px 500px 500px;
+        grid-template-areas: 
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco"
+        ;
+        gap: 10px;
+        background-image: cover;
+        
+         }  
+    
+        .contenedorhijo{
+        width: 100%;
+      
+        border-radius: 3px;
+        text-align: center;
+        background-repeat: no-repeat
+        }
+    
+    
+        .uno{
+            background-color: rgb(238, 191, 97);
+            grid-area: uno;
+           
+        }
+    
+        .dos{
+            background-color: rgb(184, 131, 34);
+            grid-area: dos;
+            }
+        
+        .tres{
+                background-color: rgb(245, 139, 10);
+                grid-area: tres;
+                }
+        
+        .cuatro{
+            background-color: rgb(62, 150, 40);
+            grid-area: cuatro;
+        }
+        
+        
+        .cinco{
+            background-color: rgb(134, 164, 84);
+            grid-area: cinco;
+        }
+  
+
+
+    .contenedortres{
+            margin: 5px auto;
+            width: 100%;
+            padding: 0;
+            display: grid;
+            grid-template-rows: 500px 500px 500px 500px 500px;
+            grid-template-areas: 
+            "seis"
+            "siete"
+            "ocho"
+            "nueve"
+            "diez"
+            ;
+            gap: 10px;
+            
+            }  
+        
+            .contenedorhijo{
+            width: 100%;
+            border-radius: 3px;
+            text-align: center;
+            margin: 0.5rem;
+            background-repeat: no-repeat;
+             }
+        
+        
+            .seis{
+                background-color: rgb(210, 210, 233);
+                grid-area: seis;
+               
+            }
+        
+            .siete{
+                background-color: rgb(179, 175, 175);
+                grid-area: siete;
+            }
+            
+            .ocho{
+                    background-color: rgb(76, 76, 169);
+                    grid-area: ocho;
+            }
+
+            .nueve{
+                background-color: rgb(123, 176, 199);
+                grid-area: nueve;
+            }
+
+             .diez{
+            background-color: rgb(124, 176, 20);
+            grid-area: diez;
+            }       
+
+
+    .contenedorcuatro{
+    margin: 5px auto;
+    width: 90%;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 500px 500px 500px 500px 500px;
+    grid-template-areas: 
+    "once"
+    "doce"
+    "trece"
+    "catorce"
+    "quince"
+    ;
+        gap: 10px;
+                
+        }  
+            
+                .contenedorhijo{
+                width: 100%;
+              
+                border-radius: 3px;
+                text-align: center;
+                }
+            
+            
+                .once{
+                    background-color: rgb(138, 14, 70);
+                    grid-area: once;
+                   
+                }
+
+              
+            
+                .doce{
+                    background-color: rgb(20, 1, 20);
+                    grid-area: doce;
+                }
+                
+                .trece{
+                        background-color: rgb(155, 116, 16);
+                        grid-area: trece;
+                }
+                
+                .catorce{
+                    background-color: rgb(220, 207, 162);
+                    grid-area: catorce;
+                }
+                
+                
+                .quince{
+                    background-color: rgb(204, 203, 203);
+                    grid-area: quince;
+                }
+
+    .contenedorcinco{
+        margin: 5px auto;
+        width: 80%;
+        padding: 0;
+        display: grid;
+        grid-template-rows: 300px 300px;
+        grid-template-areas: 
+        "dieciseis"
+        "diecisiete"
+        ;
+        gap: 10px;
+                    
+        }  
+                
+            .contenedorhijo{
+            padding: 2rem;
+            width: 100%;
+            border-radius: 3px;
+            text-align: center;
+            }
+                
+                
+            .dieciseis{
+            background-color: rgb(229, 229, 244);
+            grid-area: dieciseis;
+                       
+            }
+            .escribo{
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .opiniones{
+            font-size: large; 
+            font-family: 'Courier New', Courier, monospace;   
+             }   
+
+            .diecisiete{
+            background-color: rgb(229, 229, 244);
+            grid-area: diecisiete;
+            align-items: center;
+            }
+            
+           
+
+.footer{
+    padding: 15px;
+    margin: 15px;
+    }
+
+.footer,p {
+    text-align: center;
+}
+
+@media (max-width:700px){
+   .footer,p{
+    text-align: left;
+    margin: 15px
+}
+}
