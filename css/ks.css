@@ -39,6 +39,9 @@ body .container .video {
   font-size: larger;
   text-align: center; }
 
+.container .mosaicos {
+  font-size: large; }
+
 h1 {
   margin: 1rem;
   font-family: 'Dosis', sans-serif; }
